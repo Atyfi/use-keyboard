@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.custom-shape-divider-bottom-1680683729 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    line-height: 0;
+    background: url(images/IMG_20210818_192351_513.jpg);
+    background-size: cover;
+}
+
+.custom-shape-divider-bottom-1680683729 svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 266px;
+}
+
+.custom-shape-divider-bottom-1680683729 .shape-fill {
+    fill: #FFFFFF;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2em;
+}
